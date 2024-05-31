@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li>
+            <a></a>
+          </li>
+          <li>
+            <a></a>
+          </li>
+          <li>
+            <a class="list__item--a">Поездки</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="/" class="header__office">
+        Заболоцкий К.О
+        <svg width="11" height="11" class="header__icon">
+          <use href="./images/goOut.svg#icon" width="11" height="11"></use>
+        </svg>
+      </a>
+    </header>
+    <main>
+      <section class="container my-travel">
+        <h1 class="my-travel__name">Мои поездки</h1>
+        <button class="my-travel__btn">
+          <svg width="10" height="10" class="my-travel__icon">
+            <use href="./images/plus.svg#Vector" width="10" height="10"></use>
+          </svg>
+          Оформить поездку
+        </button>
+      </section>
+      <div class="bg-color">
+        <section class="search container">
+          <h2 class="search__name">Фильтры поиска</h2>
+          <label class="search__label">
+            Период с:
+
+            <input type="date" placeholder="Выбрать..." class="search__input" />
+          </label>
+          <label class="search__label">
+            по:
+            <input
+              type="date"
+              placeholder="Выбрать..."
+              class="search__input2"
+            />
+          </label>
+          <input type="text" placeholder="Поиск..." class="search__input3" />
+          <button class="search__clearBtn">
+            <span class="search__clearIcon">
+              <svg width="10" height="10">
+                <use
+                  href="./images/clearAll.svg#Vector"
+                  width="10"
+                  height="10"
+                ></use>
+              </svg>
+            </span>
+            Сбросить все
+          </button>
+          <label class="search__label2">
+            <input type="checkbox" class="search__checkbox" />
+            Показать архивные поездки
+          </label>
+        </section>
+
+        <section class="container item">
+          <h2 class="item__name">Карточки поездок</h2>
+          <ul>
+            <li class="item__card">
+              <div class="item__card--position">
+                <p class="item__card--name">№ поездки</p>
+                <a class="item__card--link" href="/">000115</a>
+              </div>
+
+              <div class="item__card--position1">
+                <p class="item__card--name">Дата поездки</p>
+                <p class="item__card--main">22.02.2024 - 27.02.2024</p>
+              </div>
+
+              <div class="item__card--position2">
+                <p class="item__card--name">Сумма, план</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position3">
+                <p class="item__card--name">Сумма, факт</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position4">
+                <p class="item__card--name">Город</p>
+                <p class="item__card--main">
+                  Москва, Ярославль, Ижевск, Владимир
+                </p>
+              </div>
+
+              <div class="item__card--position5">
+                <p class="item__card--status">Статус</p>
+                <p class="item__card--doc">Документы</p>
+              </div>
+            </li>
+
+            <li class="item__card">
+              <div class="item__card--position">
+                <p class="item__card--name">№ поездки</p>
+                <a class="item__card--link" href="/">000117</a>
+              </div>
+
+              <div class="item__card--position1">
+                <p class="item__card--name">Дата поездки</p>
+                <p class="item__card--main">22.02.2024 - 27.02.2024</p>
+              </div>
+
+              <div class="item__card--position2">
+                <p class="item__card--name">Сумма, план</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position3">
+                <p class="item__card--name">Сумма, факт</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position4">
+                <p class="item__card--name">Город</p>
+                <p class="item__card--main">Москва</p>
+              </div>
+
+              <div class="item__card--position5">
+                <p class="item__card--status">Статус</p>
+                <p class="item__card--doc">Документы</p>
+              </div>
+            </li>
+
+            <li class="item__card">
+              <div class="item__card--position">
+                <p class="item__card--name">№ поездки</p>
+                <a class="item__card--link" href="/">000074</a>
+              </div>
+
+              <div class="item__card--position1">
+                <p class="item__card--name">Дата поездки</p>
+                <p class="item__card--main">22.02.2024 - 27.02.2024</p>
+              </div>
+
+              <div class="item__card--position2">
+                <p class="item__card--name">Сумма, план</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position3">
+                <p class="item__card--name">Сумма, факт</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position4">
+                <p class="item__card--name">Город</p>
+                <p class="item__card--main">
+                  Кременчуг-Константиновское, Петропавловск-Камчатский,
+                  Новосибирск, Волгоград
+                </p>
+              </div>
+
+              <div class="item__card--position5">
+                <p class="item__card--status">Статус</p>
+                <p class="item__card--doc">Документы</p>
+              </div>
+            </li>
+            <li class="item__card">
+              <div class="item__card--position">
+                <p class="item__card--name">№ поездки</p>
+                <a class="item__card--link" href="/">000115</a>
+              </div>
+
+              <div class="item__card--position1">
+                <p class="item__card--name">Дата поездки</p>
+                <p class="item__card--main">22.02.2024 - 27.02.2024</p>
+              </div>
+
+              <div class="item__card--position2">
+                <p class="item__card--name">Сумма, план</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position3">
+                <p class="item__card--name">Сумма, факт</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position4">
+                <p class="item__card--name">Город</p>
+                <p class="item__card--main">
+                  Москва, Ярославль, Ижевск, Владимир
+                </p>
+              </div>
+
+              <div class="item__card--position5">
+                <p class="item__card--status">Статус</p>
+                <p class="item__card--doc">Документы</p>
+              </div>
+            </li>
+            <li class="item__card">
+              <div class="item__card--position">
+                <p class="item__card--name">№ поездки</p>
+                <a class="item__card--link" href="/">000211</a>
+              </div>
+
+              <div class="item__card--position1">
+                <p class="item__card--name">Дата поездки</p>
+                <p class="item__card--main">22.02.2024 - 27.02.2024</p>
+              </div>
+
+              <div class="item__card--position2">
+                <p class="item__card--name">Сумма, план</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position3">
+                <p class="item__card--name">Сумма, факт</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position4">
+                <p class="item__card--name">Город</p>
+                <p class="item__card--main">
+                  Москва, Ярославль, Ижевск, Владимир
+                </p>
+              </div>
+
+              <div class="item__card--position5">
+                <p class="item__card--status">Статус</p>
+                <p class="item__card--doc">Документы</p>
+              </div>
+            </li>
+
+            <li class="item__card">
+              <div class="item__card--position">
+                <p class="item__card--name">№ поездки</p>
+                <a class="item__card--link" href="/">000118</a>
+              </div>
+
+              <div class="item__card--position1">
+                <p class="item__card--name">Дата поездки</p>
+                <p class="item__card--main">22.02.2024 - 27.02.2024</p>
+              </div>
+
+              <div class="item__card--position2">
+                <p class="item__card--name">Сумма, план</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position3">
+                <p class="item__card--name">Сумма, факт</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position4">
+                <p class="item__card--name">Город</p>
+                <p class="item__card--main">
+                  Москва, Ярославль, Ижевск, Владимир
+                </p>
+              </div>
+
+              <div class="item__card--position5">
+                <p class="item__card--status">Статус</p>
+                <p class="item__card--doc">Документы</p>
+              </div>
+            </li>
+
+            <li class="item__card">
+              <div class="item__card--position">
+                <p class="item__card--name">№ поездки</p>
+                <a class="item__card--link" href="/">000119</a>
+              </div>
+
+              <div class="item__card--position1">
+                <p class="item__card--name">Дата поездки</p>
+                <p class="item__card--main">22.02.2024 - 27.02.2024</p>
+              </div>
+
+              <div class="item__card--position2">
+                <p class="item__card--name">Сумма, план</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position3">
+                <p class="item__card--name">Сумма, факт</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position4">
+                <p class="item__card--name">Город</p>
+                <p class="item__card--main">
+                  Москва, Ярославль, Ижевск, Владимир
+                </p>
+              </div>
+
+              <div class="item__card--position5">
+                <p class="item__card--status">Статус</p>
+                <p class="item__card--doc">Документы</p>
+              </div>
+            </li>
+
+            <li class="item__card">
+              <div class="item__card--position">
+                <p class="item__card--name">№ поездки</p>
+                <a class="item__card--link" href="/">000120</a>
+              </div>
+
+              <div class="item__card--position1">
+                <p class="item__card--name">Дата поездки</p>
+                <p class="item__card--main">22.02.2024 - 27.02.2024</p>
+              </div>
+
+              <div class="item__card--position2">
+                <p class="item__card--name">Сумма, план</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position3">
+                <p class="item__card--name">Сумма, факт</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position4">
+                <p class="item__card--name">Город</p>
+                <p class="item__card--main">
+                  Москва, Ярославль, Ижевск, Владимир
+                </p>
+              </div>
+
+              <div class="item__card--position5">
+                <p class="item__card--status">Статус</p>
+                <p class="item__card--doc">Документы</p>
+              </div>
+            </li>
+            <li class="item__card">
+              <div class="item__card--position">
+                <p class="item__card--name">№ поездки</p>
+                <a class="item__card--link" href="/">000133</a>
+              </div>
+
+              <div class="item__card--position1">
+                <p class="item__card--name">Дата поездки</p>
+                <p class="item__card--main">22.02.2024 - 27.02.2024</p>
+              </div>
+
+              <div class="item__card--position2">
+                <p class="item__card--name">Сумма, план</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position3">
+                <p class="item__card--name">Сумма, факт</p>
+                <p class="item__card--main">29 400,00</p>
+              </div>
+
+              <div class="item__card--position4">
+                <p class="item__card--name">Город</p>
+                <p class="item__card--main">
+                  Москва, Ярославль, Ижевск, Владимир
+                </p>
+              </div>
+
+              <div class="item__card--position5">
+                <p class="item__card--status">Статус</p>
+                <p class="item__card--doc">Документы</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
